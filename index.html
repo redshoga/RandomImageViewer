@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ランダム画像びゅーわー</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" integrity="sha256-vrn14y7WH7zgEElyQqm2uCGSQrX/xjYDjniRUQx3NyU=" crossorigin="anonymous" defer></script>
+
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div onclick="location.reload();">変更</div>
+      <div><a id="tweet-button" class="wait" target="_blank">ツイート</a></div>
+    </nav>
+
+    <main>
+      <div>
+        <a id="result-a">
+          <img id="result-img" src="./assets/preloader.gif">
+        </a>
+      </div>
+      <div id="search-now" style="cursor: wait">
+        Imgurからランダムに画像を探索中です...
+      </div>
+    </main>
+  </body>
+</html>
