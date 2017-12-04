@@ -9,7 +9,7 @@ var getRandomString = function(length) {
 
 var getRandomImgurUrl = function() {
   var ext = ["jpg", "png"];
-  return 'http://i.imgur.com/' + getRandomString(5) + '.' + ext[Math.floor(Math.random()*ext.length)];
+  return 'https://i.imgur.com/' + getRandomString(5) + '.' + ext[Math.floor(Math.random()*ext.length)];
 }
 
 var getImageUrl = function(callback) {
