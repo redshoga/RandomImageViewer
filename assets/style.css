@@ -56,3 +56,18 @@ nav div:last-child {
   outline: 1px solid #aaa;
   opacity: .8;
 }
+
+.produced-by {
+  margin: .5em;
+  font-size: 1rem;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.produced-by:hover {
+  opacity: .75;
+}
